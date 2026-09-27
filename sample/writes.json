@@ -1,0 +1,13 @@
+{
+  "budget": 1,
+  "widths": [2, 3],
+  "field_error_code": "E_FIELD_TOO_BIG",
+  "ordinal_error_code": "E_BAD_ORDINAL",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "records": [], "total_bytes": 0, "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "write", "seq": 1, "values": [12, 345] },
+    { "id": 2, "kind": "write", "seq": 2, "values": [7, 8] },
+    { "id": 3, "kind": "write", "seq": 3, "values": [99, 999] }
+  ]
+}
